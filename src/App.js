@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Container, Box } from '@mui/material';
 
 // Import components
-import HeroSection from './components/HeroSection';
-import ShortTermEffects from './components/ShortTermEffects';
-import LongTermEffects from './components/LongTermEffects';
-import StatisticsSection from './components/StatisticsSection';
-import SolutionsSection from './components/SolutionsSection';
-import SourcesSection from './components/SourcesSection';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import Week1 from './components/Week1';
+import Week2 from './components/Week2';
+import Week3 from './components/Week3';
+import Week4 from './components/Week4';
+import WorksCited from './components/WorksCited';
 
 // Create a custom theme
 const theme = createTheme({
@@ -45,18 +46,32 @@ const theme = createTheme({
 });
 
 function App() {
+	const [route, setRoute] = useState(
+		typeof window !== 'undefined' && window.location.hash
+			? window.location.hash
+			: '#/'
+	);
+
+	useEffect(() => {
+		const onHashChange = () => {
+			setRoute(window.location.hash || '#/');
+		};
+		window.addEventListener('hashchange', onHashChange);
+		return () => window.removeEventListener('hashchange', onHashChange);
+	}, []);
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
 			<Box sx={{ minHeight: '100vh', backgroundColor: 'background.default' }}>
-				<HeroSection />
+				<NavBar />
 				<Container maxWidth="lg">
 					<Box sx={{ py: 4 }}>
-						<ShortTermEffects />
-						<LongTermEffects />
-						<StatisticsSection />
-						<SolutionsSection />
-						<SourcesSection />
+						{route === '#/' && <Home />}
+						{route === '#/week-1' && <Week1 />}
+						{route === '#/week-2' && <Week2 />}
+						{route === '#/week-3' && <Week3 />}
+						{route === '#/week-4' && <Week4 />}
+						{route === '#/sources' && <WorksCited />}
 					</Box>
 				</Container>
 			</Box>

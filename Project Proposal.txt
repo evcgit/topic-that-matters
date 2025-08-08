@@ -1,0 +1,36 @@
+﻿Cortez 
+Project Proposal
+Sponsor:
+
+
+        A proposal written to Utah Valley University
+
+
+Introduction:
+It started with a moment of boredom. I was sitting at work waiting for something to load and, almost instinctively, I picked up my phone. I scrolled through Instagram until I got a “You’re all caught up!” notification. The one you have to scroll a long time to get. The wild part? I couldn’t remember a single thing I had just seen. I was just on autopilot. That’s when it hit me that I had a problem and if I had a problem then it was pretty likely that others might have a similar experience.
+Americans now average between 7 and 8 hours of screen time per day, which is more than any other country in the world. A study published in the International Journal of Environmental Research & Public Health by Kumban found that almost half of university students used their phones more than eight hours a day, showing how constant and ingrained phone habits have become (1). What used to be occasional tech use has become constant, compulsive, and even unconscious. With AI tools now replacing basic mental tasks, and entertainment optimized for endless consumption, we have to ask: What is this doing to our cognitive health?
+In this proposal, I will outline a targeted digital awareness campaign designed to help college students at Utah Valley University recognize and reduce unconscious screen use, with the goal of improving focus, sleep quality, and long-term cognitive health.
+The Problem:
+A study published in the journal PLoS ONE by Sela et al. explains that phone use in an “unaware” mode directly lowers quality of life, creating a loop of mindless consumption and declining well-being (4). Their research shows that it's not just screen time itself that’s harmful, but the habitual, unintentional aspect of it
+This becomes even more concerning when we consider how screen addiction affects basic needs like sleep. A 2024 study published in PLoS ONE by Zhu et al. examined nearly 4,700 Chinese college students and found that those with higher levels of smartphone addiction reported significantly poorer sleep quality (7). When we aren’t sleeping well and our attention spans are suffering, it raises a serious question about what kind of future we’re building.
+It isn’t just about numbers. According to an interview I conducted with Amberly Bateman, a therapist who works with neurodivergent youth, screen time has become one of the hardest challenges for families to manage. “It’s not just about turning off the device,” she said. “Kids don’t know how to be bored anymore. Their brains are so used to constant stimulation that it makes learning and their overall development harder than ever.” Both the data and expert opinions both point to the same conclusion that excessive and unconscious screen time is harming our ability to think, focus, and grow.
+The Plan:
+So what’s the solution? Change the pattern. Over the last two decades our technology has completely changed the way the world works at an alarming rate which is what prevented anyone from seeing this coming. We need to start with the next generation of parents who have a good understanding of technology and its effects from their own experience. I propose creating a digital awareness campaign designed specifically for college students. This campaign will include a series of short videos and infographics shared through social media and campus email blasts. Each piece of content will explain the effects of screen addiction in simple and  relatable terms. They will be backed by data, expert advice, and include tips for reducing unconscious phone use.
+The project will run for four weeks at Utah Valley University. Every week will focus on a different theme: (1) screen time and sleep, (2) cognitive effects, (3) reclaiming attention, and (4) forming new habits. Content will be developed with help from the university’s communication department and distributed with the support of student clubs and student support centers.
+To measure success, I will conduct a short before-and-after survey asking students about their screen time, awareness levels, and general well-being. This will provide measurable data to determine whether the campaign had any impact on behavior or mindset. 
+Implications:
+The goal is not to make people feel guilty for using their phones but it’s to help them recognize when they’re using tech out of habit instead of intention. This campaign could shift the way students engage with their screens, improving their sleep, focus, and mental clarity.
+On a bigger scale, this project can create a serious domino effect for the following generations and help people develop a skill that will only become more essential as AI and automation continue to rise. By helping people re-engage with their own thoughts and habits, we’re helping them build a more intentional future and that’s something any sponsor should be proud to support.
+
+
+
+
+
+
+
+
+Works Cited
+Bateman, Amberly. Licensed therapist specialized in neurodivergent youth. Personal Interview. 2 August 2025
+Kumban, Wannisa, et al. “Smartphone Addiction, Screen Time, and Physical Activity of Different Academic Majors and Study Levels in University Students.” International Journal of Environmental Research & Public Health, vol. 22, no. 2, Feb. 2025, p. 237. EBSCOhost, https://doi-org.uvu.idm.oclc.org/10.3390/ijerph22020237.
+Sela, Alon, et al. “Smartphone Use Behavior and Quality of Life: What Is the Role of Awareness?” PLoS ONE, vol. 17, no. 3, Mar. 2022. EBSCOhost, https://doi-org.uvu.idm.oclc.org/10.1371/journal.pone.0260637.
+Zhu, Weidong, et al. “Influence of Smartphone Addiction on Sleep Quality of College Students: The Regulatory Effect of Physical Exercise Behavior.” PLoS ONE, vol. 19, no. 7, July 2024. EBSCOhost, https://doi-org.uvu.idm.oclc.org/10.1371/journal.pone.0307162.
