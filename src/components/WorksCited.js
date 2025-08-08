@@ -60,6 +60,17 @@ const WorksCited = () => {
 			link: '',
 			type: 'Expert Interview',
 		},
+		{
+			authors: 'Harvard Health Publishing',
+			title: 'Blue light has a dark side',
+			journal: 'Harvard Medical School',
+			year: '2020',
+			volume: '',
+			pages: 'Circadian rhythm research',
+			doi: '',
+			link: 'https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side',
+			type: 'Medical Publication',
+		},
 	];
 
 	return (
@@ -88,7 +99,7 @@ const WorksCited = () => {
 
 				<Grid container spacing={3}>
 					{sources.map((source, index) => (
-						<Grid item xs={12} key={index}>
+						<Grid item size={12} key={index}>
 							<Card
 								elevation={2}
 								sx={{
@@ -111,6 +122,8 @@ const WorksCited = () => {
 											color={
 												source.type === 'Expert Interview'
 													? 'secondary'
+													: source.type === 'Medical Publication'
+													? 'success'
 													: 'primary'
 											}
 											variant="outlined"

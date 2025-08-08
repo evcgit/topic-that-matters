@@ -8,6 +8,7 @@ import {
 	ListItem,
 	ListItemText,
 	Link,
+	Button,
 } from '@mui/material';
 
 const Week1 = () => {
@@ -56,6 +57,22 @@ const Week1 = () => {
 					</Typography>
 				</Paper>
 			</Container>
+			<Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 3 }}>
+				<Button
+					variant="contained"
+					color="primary"
+					onClick={() => (window.location.href = '#/')}
+				>
+					Previous
+				</Button>
+				<Button
+					variant="contained"
+					color="primary"
+					onClick={() => (window.location.href = '#/week-2')}
+				>
+					Next
+				</Button>
+			</Box>
 		</Box>
 	);
 };

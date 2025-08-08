@@ -18,6 +18,9 @@ import {
 	FormControlLabel,
 	Slider,
 	LinearProgress,
+	Grid,
+	Card,
+	CardContent,
 } from '@mui/material';
 
 const Home = () => {
@@ -135,32 +138,113 @@ const Home = () => {
 					Learn, try small changes, and track how you feel—week by week.
 				</Typography>
 
-				<Paper elevation={2} sx={{ p: 3, mb: 4 }}>
-					<Typography variant="h6" sx={{ fontWeight: 800, mb: 1 }}>
+				<Box sx={{ mb: 4 }}>
+					<Typography
+						variant="h6"
+						sx={{ fontWeight: 800, mb: 1, textAlign: 'center' }}
+					>
 						Why this matters
 					</Typography>
-					<Typography variant="body1" sx={{ mb: 1 }}>
+					<Typography
+						variant="body1"
+						sx={{ mb: 3, textAlign: 'center', color: 'text.secondary' }}
+					>
 						This program focuses on awareness and small, sustainable habits that
 						improve sleep, focus, and overall wellbeing.
 					</Typography>
-					<List dense>
-						<ListItem sx={{ pl: 0 }}>
-							<ListItemText primary="According to Harvard Health Publishing, blue light can suppress melatonin and disrupt sleep." />
-						</ListItem>
-						<ListItem sx={{ pl: 0 }}>
-							<ListItemText primary="According to DataReportal (2024), average daily mobile usage is about 4.8 hours." />
-						</ListItem>
-						<ListItem sx={{ pl: 0 }}>
-							<ListItemText primary="According to Common Sense Media, teens average ~7.7 hours of screen time per day." />
-						</ListItem>
-						<ListItem sx={{ pl: 0 }}>
-							<ListItemText primary="According to the National Eye Institute, about 41.6% of Americans are myopic—roughly double since 1970." />
-						</ListItem>
-					</List>
-					<Typography variant="caption" sx={{ color: 'text.secondary' }}>
+
+					<Grid container spacing={2} sx={{ mb: 2 }}>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Sleep Impact
+									</Typography>
+									<Typography variant="body2">
+										According to Harvard Health Publishing, blue light can
+										suppress melatonin and disrupt sleep.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Mobile Usage
+									</Typography>
+									<Typography variant="body2">
+										According to DataReportal (2024), average daily mobile usage
+										is about 4.8 hours.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Teen Screen Time
+									</Typography>
+									<Typography variant="body2">
+										According to Common Sense Media, teens average ~7.7 hours of
+										screen time per day.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Vision Health
+									</Typography>
+									<Typography variant="body2">
+										According to the National Eye Institute, about 41.6% of
+										Americans are myopic—roughly double since 1970.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Work Screen Time
+									</Typography>
+									<Typography variant="body2">
+										According to the Bureau of Labor Statistics, office workers
+										average 8.5 hours of daily screen time.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+						<Grid item size={4}>
+							<Card elevation={2} sx={{ height: '100%', '&:hover': { boxShadow: 4, transform: 'translateY(-8px)', transition: 'all 0.3s ease' } }}>
+								<CardContent sx={{ p: 2 }}>
+									<Typography variant="body2" sx={{ fontWeight: 600, mb: 0.5 }}>
+										Sleep Quality
+									</Typography>
+									<Typography variant="body2">
+										According to the Sleep Foundation, 89% report worse sleep
+										with evening screen use.
+									</Typography>
+								</CardContent>
+							</Card>
+						</Grid>
+					</Grid>
+
+					<Typography
+						variant="caption"
+						sx={{
+							display: 'block',
+							textAlign: 'center',
+							color: 'text.secondary',
+						}}
+					>
 						See citations: <Link href="#/sources">Sources & References</Link>
 					</Typography>
-				</Paper>
+				</Box>
 
 				<Paper elevation={3} sx={{ p: 3, mb: 4 }}>
 					<Typography variant="subtitle1" sx={{ fontWeight: 800, mb: 1 }}>
